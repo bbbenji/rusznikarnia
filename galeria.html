@@ -1,0 +1,130 @@
+<!doctype html>  
+<head>
+
+<!--
+           ,,,,        ,,,,
+         ,"    ';    ;'    ",
+         ;     s$$$$$s      ;
+         ',  ss$$$$$$$$ss  ,'
+          ;s$$$$$$$$$$$$$$s;
+          $$$$$$$$$$$$$$$$$$
+         $$$$W""Y$$$$Y""W$$$$
+         $$$$   "$$$$"   $$$$
+         $$$$  .$$$$$$.  $$$$
+          $$$$$$$$$$$$$$$$$$
+            "Y$$$"**"$$$Y"
+               "$b..d$"
+-->
+        
+<meta charset="utf-8">
+<title>DARZ BÓR - Galeria</title>
+
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.simplyscroll.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel-3.0.6.pack.js"></script>
+<script type="text/javascript" src="js/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(".fancybox").fancybox();
+    });
+</script>
+
+<script type="text/javascript">
+    (function($) {
+        $(function() {
+            $("#scroller").simplyScroll({
+                pauseOnHover: false
+            });
+        });
+    })(jQuery);
+</script>
+
+</head>
+<body>
+
+<img class="border_left" src="images/border_left.png" alt="" title="" />
+<img class="border_right" src="images/border_right.png" alt="" title="" />
+
+<div id="main_container">
+
+    <div id="header">
+        <a href="/"><img class="logo" src="images/logo.png" /></a>
+    </div>
+
+    <div class="menu">
+        <ul>                                                                         
+            <li><a href="/">Home</a></li>
+            <li><a href="oferta.html">Oferta</a></li>
+            <li><a href="o_firmie.html">O Firmie</a></li>
+            <li><a href="kontakt.html">Kontakt</a></li>
+            <li class="selected"><a href="galeria.html">Galeria</a></li>
+        </ul>
+    </div> <!-- .menu -->
+        
+    <div class="center_content">
+
+        <h1 class="title">Galeria</h1>
+
+        <div class="twelvecol first thumb">
+            <a class="fancybox" rel="group" href="images/galeria/IMG_2061.JPG" title="">
+                <img src="images/galeria/thumb/thumb_IMG_2061.jpg" alt="" />
+            </a>
+            <a class="fancybox" rel="group" href="images/galeria/IMG_2062.JPG" title="">
+                <img src="images/galeria/thumb/thumb_IMG_2062.jpg" alt="" />
+            </a>
+            <a class="fancybox" rel="group" href="images/galeria/IMG_2064.JPG" title="">
+                <img class="end" src="images/galeria/thumb/thumb_IMG_2064.jpg" alt="" />
+            </a>
+            <a class="fancybox" rel="group" href="images/galeria/IMG_2065.JPG" title="">
+                <img src="images/galeria/thumb/thumb_IMG_2065.jpg" alt="" />
+            </a>
+            <a class="fancybox" rel="group" href="images/galeria/IMG_2066.JPG" title="">
+                <img src="images/galeria/thumb/thumb_IMG_2066.jpg" alt="" />
+            </a>
+            <img class="deer" src="images/deer.png" />
+        </div><!-- .twelvecol -->
+
+        <div  class="full">
+            <ul id="scroller">
+                <li><img src="images/scroller/beretta.png" height="80" width="93" alt="Beretta"></li>
+                <li><img src="images/scroller/blaser.png" height="80" width="353" alt="Blaser"></li>
+                <li><img src="images/scroller/glock.png" height="80" width="91" alt="Glock"></li>
+                <li><img src="images/scroller/hk.png" height="80" width="93" alt="HK"></li>
+                <li><img src="images/scroller/mauser.png" height="80" width="120" alt="Mauser"></li>
+                <li><img src="images/scroller/ocz.png" height="80" width="128" alt="OCZ"></li>
+                <li><img src="images/scroller/rws.png" height="80" width="80" alt="RWS"></li>
+                <li><img src="images/scroller/sauer.png" height="80" width="207" alt="SAUER"></li>
+                <li><img src="images/scroller/schmitbender.png" height="80" width="674" alt="Schmitbender"></li>
+                <li><img src="images/scroller/sigsauer.png" height="80" width="278" alt="Sigsauer"></li>
+                <li><img src="images/scroller/smithwesson.png" height="80" width="156" alt="Smith & Wesson"></li>
+                <li><img src="images/scroller/steyr.png" height="80" width="80" alt="Steyr"></li>
+                <li><img src="images/scroller/swarovski.png" height="80" width="103" alt="Swarovski"></li>
+                <li><img src="images/scroller/walther.png" height="80" width="238" alt="Walther"></li>
+                <li><img src="images/scroller/zeiss.png" height="80" width="80" alt="Zeiss"></li>
+            </ul><!-- #scroller -->
+        </div><!-- .full -->
+        
+        <div class="clear"></div> 
+    
+    </div><!-- .center_content -->    
+
+    <div id="footer">  
+
+        <div class="left_footer">
+            <a href="/">Home</a>
+            <a href="oferta.html">Oferta</a>
+            <a href="o_firmie.html">O Firmie</a>
+            <a href="kontakt.html">Kontakt</a>
+            <a href="galeria.html">Galeria</a>
+        </div><!-- .left_footer -->
+    
+    </div><!-- @footer -->
+    
+</div><!-- #main_container -->
+
+</body>
+</html>
