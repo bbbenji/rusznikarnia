@@ -234,6 +234,14 @@ a:hover, a:focus {
     margin: 0 0 18px 0 !important;
 }
 
+.border {
+    border: 10px solid #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px 0px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
 .dog {
     margin: -70px 0 -10px 0;
     margin: -70px 0 0 0;
