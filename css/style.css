@@ -33,10 +33,10 @@ ul {
 }
 
 p {
-	text-align: justify;
-	line-height: 20px;
-	margin: 0;
-	padding: 0 0 20px 0;
+    text-align: justify;
+    line-height: 20px;
+    margin: 0;
+    padding: 0 0 20px 0;
 }
 
 p.welcome {
@@ -67,10 +67,10 @@ p.welcome {
 }
 
 .logo {
-	margin: 0 auto;
-	display: block;
-	top: 30px;
-	position: relative;
+    margin: 0 auto;
+    display: block;
+    top: 30px;
+    position: relative;
 }
 
 .border_left {
@@ -107,49 +107,49 @@ p.welcome {
 }
 
 .menu {
-	width:821px;
-	height:42px;
-	background:url(../images/menu_bg.gif) no-repeat left;
-	position:relative;
-	z-index:3;
-	margin:0;
+    width:821px;
+    height:42px;
+    background:url(../images/menu_bg.gif) no-repeat left;
+    position:relative;
+    z-index:3;
+    margin:0;
 }
 
 .menu ul {
-	list-style:none;
-	margin:0;
-	padding:0 0 0 15px;
+    list-style:none;
+    margin:0;
+    padding:0 0 0 15px;
 }
 
 .menu ul li {
-	display:inline;
+    display:inline;
 }
 
 .menu ul li a {
-	float:left;
-	height:42px;
-	border:none;
-	text-decoration:none;
-	color:#fff;
-	line-height:42px;
-	font-size:14px;
-	padding:0 15px;
+    float:left;
+    height:42px;
+    border:none;
+    text-decoration:none;
+    color:#fff;
+    line-height:42px;
+    font-size:14px;
+    padding:0 15px;
 }
 
 .menu ul li.selected a {
-	float:left;
-	height:42px;
-	border:none;
-	text-decoration:none;
-	color:#fff;
-	line-height:42px;
-	font-size:14px;
-	background:url(../images/menu_bullet.gif) no-repeat bottom center;
-	padding:0 15px;
+    float:left;
+    height:42px;
+    border:none;
+    text-decoration:none;
+    color:#fff;
+    line-height:42px;
+    font-size:14px;
+    background:url(../images/menu_bullet.gif) no-repeat bottom center;
+    padding:0 15px;
 }
 
 .menu ul li a:hover {
-	background:url(../images/menu_bullet.gif) no-repeat bottom center;
+    background:url(../images/menu_bullet.gif) no-repeat bottom center;
 }
 
 .welcome_box {
@@ -208,12 +208,12 @@ p.welcome {
 }
 
 a {
-	color: #24a4b3;
-	text-decoration: none;
+    color: #24a4b3;
+    text-decoration: none;
 }
 
 a:hover, a:focus {
-	text-decoration: underline;
+    text-decoration: underline;
 }
 
 .red, .orange {
@@ -232,6 +232,14 @@ a:hover, a:focus {
 
 .end {
     margin: 0 0 18px 0 !important;
+}
+
+.border {
+    border: 10px solid #f9f9f9;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 3px 0px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
 }
 
 .dog {
