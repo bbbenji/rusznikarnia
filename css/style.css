@@ -298,4 +298,8 @@ p {
     position: relative;
 }
 
+.thumb img {
+  max-width: 222px;
+}
+
 /*Kontakt*/
